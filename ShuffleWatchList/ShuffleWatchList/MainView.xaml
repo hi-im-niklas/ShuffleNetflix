@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShuffleWatchList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400" Background="Black" WindowStyle="None">
+        Title="MainWindow" Height="450" Width="400" Background="Black" WindowStyle="None" >
+    <Window.DataContext>
+        <local:ShufflerViewModel/>
+    </Window.DataContext>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
