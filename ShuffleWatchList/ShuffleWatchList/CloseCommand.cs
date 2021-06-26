@@ -7,16 +7,15 @@ using System.Windows.Input;
 
 namespace ShuffleWatchList
 {
-    class ShufflerViewModel
+    class CloseCommand : ICommand
     {
+        public event EventHandler CanExecuteChanged;
 
-        public ICommand CloseCommand { get; set; }
+        public bool CanExecute(object parameter) => true;
 
-        public ShufflerViewModel()
+        public void Execute(object parameter)
         {
-            this.CloseCommand = new CloseCommand();
+
         }
-
-
     }
 }
