@@ -20,4 +20,3 @@ C:\Users\nickb\source\repos\ShuffleNetflix\ShuffleWatchList\ShuffleWatchList\obj
 C:\Users\nickb\source\repos\ShuffleNetflix\ShuffleWatchList\ShuffleWatchList\obj\Debug\net5.0-windows\ref\ShuffleWatchList.dll
 C:\Users\nickb\source\repos\ShuffleNetflix\ShuffleWatchList\ShuffleWatchList\obj\Debug\net5.0-windows\ShuffleWatchList.pdb
 C:\Users\nickb\source\repos\ShuffleNetflix\ShuffleWatchList\ShuffleWatchList\obj\Debug\net5.0-windows\ShuffleWatchList.genruntimeconfig.cache
-C:\Users\nickb\source\repos\ShuffleNetflix\ShuffleWatchList\ShuffleWatchList\obj\Debug\net5.0-windows\ShuffleWatchList.csproj.AssemblyReference.cache
