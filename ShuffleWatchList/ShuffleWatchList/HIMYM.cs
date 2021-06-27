@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace ShuffleWatchList
 {
-    interface IEpisode 
+    class HIMYM : Serie
     {
         public string Name { get; set; }
-
-        public int Season { get; set; }
-
-        public int Episode { get; set; }
-
-        public ISerie Serie { get; set; }
-
-        public string Url { get; set; }
+        public IList<Episode> Episodes { get; set; }
+        public string Description { get; set; }
     }
 }
