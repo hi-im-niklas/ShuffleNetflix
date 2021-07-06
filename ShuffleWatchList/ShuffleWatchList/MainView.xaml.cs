@@ -23,6 +23,7 @@ namespace ShuffleWatchList
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ShufflerViewModel();
         }
     }
 }
