@@ -20,10 +20,21 @@
         <Button Grid.Row="3" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="70" Width="400" FontSize="45" FontWeight="UltraBold" Background="#e90514"
                 Command ="{Binding CloseCommand }" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"/>
         <StackPanel Grid.Row="1">
-        <Label Grid.Row="1" Content="Folge: " HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontSize="35" Foreground="White" FontWeight="Bold"/>
-        <Label Grid.Row="1" Content="Staffel: " HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontSize="35" Foreground="White" FontWeight="Bold"/>
-        <Label Grid.Row="1" Content="Serie: " HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontSize="35" Foreground="White" FontWeight="Bold"/>
+            <Label Grid.Row="1" Content="Folge: " HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontSize="35" Foreground="White" FontWeight="Bold"/>
+            <Label Grid.Row="1" Content="Staffel: " HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontSize="35" Foreground="White" FontWeight="Bold"/>
+            <Label Grid.Row="1" Content="Serie: " HorizontalContentAlignment="Left" VerticalContentAlignment="Top" FontSize="35" Foreground="White" FontWeight="Bold"/>
         </StackPanel>
-        <Button Grid.Row="2" Content="Watch" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="70" Width="400" FontSize="45" FontWeight="UltraBold" Background="#e90514" />
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Watch" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="70" Width="400" FontSize="45" FontWeight="UltraBold" Background="#e90514" />
+            <Button Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="70" Width="70" BorderThickness="0" BorderBrush="Black" >
+                <StackPanel>
+                    <Image Source="C:\Users\nickb\source\repos\ShuffleNetflix\ShuffleWatchList\Assets\AddButton.png"></Image>
+                </StackPanel>
+            </Button>
+        </Grid>
     </Grid>
 </Window>
